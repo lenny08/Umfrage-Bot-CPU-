@@ -1,0 +1,17 @@
+import time
+
+print("Hier werden verscheidene dinge über dich abgefragt!")
+time.sleep(0.5)
+name = input("Wie heißt du: ")
+print("Cool du heißt " + name + " Ich heiße... ")
+computername = input("Wie soll er heißen: ")
+print(computername)
+time.sleep(0.5)
+alter=input("Wie alt bist du: ")
+print("Cool du bist " + alter + " Jahre alt. Ich bin...")
+time.sleep(1)
+computeralter=input("Wie alt bin ich: ")
+time.sleep(2)
+print("Zusammengefasst;\n Du heißt " + name + " und ich heiße " + computername)
+time.sleep(1)
+print("Du bist " + alter + " Jahre alt, und ich " + computeralter + " Jahre alt")
